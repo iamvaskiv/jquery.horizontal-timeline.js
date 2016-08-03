@@ -1,0 +1,1 @@
+# jquery.horizontal-timeline.js
