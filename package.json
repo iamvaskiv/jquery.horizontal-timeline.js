@@ -1,0 +1,25 @@
+{
+  "name": "timeline",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iamvaskiv/jquery.horizontal-timeline.js.git"
+  },
+  "author": "Vitaliy Vaskiv",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iamvaskiv/jquery.horizontal-timeline.js/issues"
+  },
+  "devDependencies": {
+    "gulp": "~3.9.1",
+    "gulp-sass": "~2.3.2",
+    "gulp-livereload": "~3.8.1",
+    "http": "0.0.0",
+    "st": "~1.2.0"
+  }
+}
