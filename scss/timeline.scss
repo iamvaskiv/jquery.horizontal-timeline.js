@@ -1,7 +1,27 @@
 .timeline {
-  overflow: hidden;
-  
+  overflow: auto;
+
   .timeline-wrapper {
-    height: 300px;
+    height: 200px;
+    width: 2000px;
+    position: relative;
+
+    ul {
+      margin: 0;
+      padding: 0;
+      height: 2px;
+      background-color: green;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 100%;
+      list-style: none;
+
+      li {
+        top: 100%;
+        position: absolute;
+        border-left: 2px solid green;
+      }
+    }
   }
 }

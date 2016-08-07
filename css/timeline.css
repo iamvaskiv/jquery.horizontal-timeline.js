@@ -1,4 +1,20 @@
 .timeline {
-  overflow: hidden; }
+  overflow: auto; }
   .timeline .timeline-wrapper {
-    height: 300px; }
+    height: 200px;
+    width: 2000px;
+    position: relative; }
+    .timeline .timeline-wrapper ul {
+      margin: 0;
+      padding: 0;
+      height: 2px;
+      background-color: green;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 100%;
+      list-style: none; }
+      .timeline .timeline-wrapper ul li {
+        top: 100%;
+        position: absolute;
+        border-left: 2px solid green; }
